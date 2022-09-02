@@ -1,0 +1,4 @@
+[build]
+# use the most features that the current cpu supports.
+# since `std::simd` is "portable", take all the features we can get!
+rustflags = ["-C", "target-cpu=native"]

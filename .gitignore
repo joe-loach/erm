@@ -1,0 +1,4 @@
+# build directory
+/target
+# outputted image
+out.png
